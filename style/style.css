@@ -69,9 +69,10 @@
     position: absolute;
     top: 265px;
     left: 77px;
+
 }
 
-.imagee{
+.b{
     display: none;
 }
 
@@ -142,10 +143,11 @@ a{
         display:none;
     }
 
-    .imagee{
+    .b{
         position: absolute;
         top: 109px;
         left: 44px;
+        display: block;
     }
     
     .line {
