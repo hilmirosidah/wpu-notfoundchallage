@@ -1,6 +1,6 @@
 @font-face{
     font-family: 'Inconsolata';
-    src: url('inconsolata-webfont.woff2') format('woff2');
+    src: url('font/inconsolata-webfont.woff2') format('woff2');
 }
 .div{
     font-family: 'Inconsolata',sans-serif;
@@ -19,7 +19,7 @@
 
 @font-face {
     font-family: 'Spacemono';
-    src: url('spacemono-regular-webfont.woff2') format('woff2');
+    src: url('font/spacemono-regular-webfont.woff2') format('woff2');
 }
 
 .badnews{
@@ -77,7 +77,7 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('montserratalternates-semibold-webfont.woff2'), format('woff2');
+    src: url('font/montserratalternates-semibold-webfont.woff2'), format('woff2');
 }
 .line{
     font-family: 'Montserrat', sans-serif;
