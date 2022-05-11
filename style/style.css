@@ -1,6 +1,6 @@
 @font-face{
     font-family: 'Inconsolata';
-    src: url('font/inconsolata-webfont.woff2') format('woff2');
+    src: url('../font/inconsolata-webfont.woff2') format('woff2');
 }
 .div{
     font-family: 'Inconsolata',sans-serif;
@@ -14,12 +14,11 @@
     line-height: 25.18px;
     letter-spacing: -0.08em;
     color: #333333;
-
 }
 
 @font-face {
     font-family: 'Spacemono';
-    src: url('font/spacemono-regular-webfont.woff2') format('woff2');
+    src: url('../font/spacemono-regular-webfont.woff2') format('woff2');
 }
 
 .badnews{
@@ -48,7 +47,6 @@
     line-height: 35.54px;
     letter-spacing: -0.035em;
     color:  #4F4F4F;
-    ;
 }
 
 .back{
@@ -67,18 +65,19 @@
     line-height: 68px;
 }
 
-.gambar{
+.image{
     position: absolute;
     top: 265px;
     left: 77px;
-
+    background-image: url(../gambar/gambar.png);
 }
 
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('font/montserratalternates-semibold-webfont.woff2'), format('woff2');
+    src: url('../font/montserratalternates-semibold-webfont.woff2'), format('woff2');
 }
+
 .line{
     font-family: 'Montserrat', sans-serif;
     position: absolute;
@@ -91,7 +90,6 @@
     line-height: 17.07px;
     text-align: center;
     color: #BDBDBD;
-    ;
 }
 
 a{
@@ -102,4 +100,52 @@ a{
 .removelinkdeafult{
     color: #FFFFFF;
     text-decoration: none;
+}
+
+/*phones*/
+@media (max-width :600px) {
+    .div{
+        top: 20px;
+        left: 24px;
+    }
+
+    .badnews{
+        width: 350px;
+        height: 142px;
+        top: 407px;
+        left: 24px;
+        font-size: 48px;
+        line-height: 71.09px;
+        letter-spacing: -0.035em;
+    }
+    
+    .page{
+        width: 328px;
+        height: 81px;
+        top: 579px;
+        left: 24px;
+        font-size: 18px;
+        line-height: 26.66px;
+    }
+    
+    .back{
+        width: 216px;
+        height: 68px;
+        top: 726px;
+        left: 24px;
+    }
+    
+    .image{
+        top: 109px;
+        left: 44px;
+        background-image: url('../gambar/gambar2.png');
+    }
+    
+
+    .line {
+        top: 908px;
+        left: 46px;
+
+    }
+
 }
