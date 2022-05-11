@@ -69,7 +69,10 @@
     position: absolute;
     top: 265px;
     left: 77px;
-    background-image: url(../gambar/gambar.png);
+}
+
+.imagee{
+    display: none;
 }
 
 
@@ -134,18 +137,20 @@ a{
         top: 726px;
         left: 24px;
     }
-    
+
     .image{
+        display:none;
+    }
+
+    .imagee{
+        position: absolute;
         top: 109px;
         left: 44px;
-        background-image: url('../gambar/gambar2.png');
     }
     
-
     .line {
         top: 908px;
         left: 46px;
-
     }
 
 }
